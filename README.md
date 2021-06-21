@@ -1,2 +1,2 @@
 # LinkInBio
-  O pagina unde pot fi gasit!
+  Un proiect insemnand o pagina unde pot fi gasit!
