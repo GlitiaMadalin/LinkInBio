@@ -20,6 +20,18 @@
       <meta property="og:image" content="og-image.jpg" />      <!--  -II-   fa referire la o imagine ce urmeaza.. --> 
       <meta property="og:image:width" content="1200" />    <!-- latime width ..ptr Facebook -->
       <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Toate link-urile mele. Profilurile de social media plus grupurile pe care sunt activ și unde răspund la întrebări." />
+		  <meta property="article:publisher" content="https://www.facebook.com/GlitiaMadalin.ro/" />
+		  <meta property="article:section" content="Link In Bio" />
+      <meta property="article:published_time" content="2021-05-09T23:27:55+03:00" />
+      <meta property="article:modified_time" content="2021-05-23T23:27:57+03:00" />
+
+
+
+
+
+
+
 
       <!-- design -->
       <link rel="stylesheet" href="style.css"/>   <!--Asa linkez css ul: orice scriu in style css se va aplica in dreapta-->
@@ -45,7 +57,7 @@
 			document.documentElement.classList.remove('no-js');
 			document.documentElement.classList.add('js');
 		</script>
-		<link rel="preload" href="./Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin />
+		
 
 
   </head>
@@ -58,33 +70,33 @@
          <h1 class="TitlulPaginii">
              <strong>Glitia Madalin</strong>  <!-- E socotit de motoarele de cautare  ca ceva important-->
          </h1>
-         <p class="descriere principala">Glitia Mdalin -Linkuri utile. Aici sunt toate link-urile si profilurile mele de social media plus grupurile pe care sunt activ.  </p>
+         <p class="descriere principala" itemprop="description">Glitia Mdalin -Linkuri utile. Aici sunt toate link-urile si profilurile mele de social media plus grupurile pe care sunt activ.  </p>
       </header>
   
       <main>
         <ul class="Lista linkuri">
           <li class="ListaItem">
-            <a href="https://www.facebook.com/glitia.madalin" class="ListaTitlu" title="Intra pe Facebooku ul meu!!"   rel="noreferrer noopener">               <!--   rel="noreferrer noopener" =e pentru furtu de date    e nevoie de ancora ptr automatizarea butoaelor. -->                                                                           
+            <a href="https://www.facebook.com/glitia.madalin" class="ListaTitlu" title="Intra pe Facebooku ul meu!!" target="_blank"  rel="noreferrer noopener">               <!--   rel="noreferrer noopener" =e pentru furtu de date    e nevoie de ancora ptr automatizarea butoaelor. -->                                                                           
               <h2 class="ListaTitlu"> 👍Facebook Madalin</h2>
-              <p class="ListaLink">https://www.facebook.com/glitia.madalin</p>
+              <p class="ListaText" itemprop="url">https://www.facebook.com/glitia.madalin</p>
             </a>
           </li>
           <li class="ListaItem">
-            <a href="https://wordpress.com/home/glitiamadalin.wordpress.com" class="ListaTitlu"  title="Intra pe Wordpresu meu!!" rel="noreferrer noopener" >     <!--  e nevoie de ancora ptr automatizarea butoaelor  -->
+            <a href="https://wordpress.com/home/glitiamadalin.wordpress.com" class="ListaTitlu"  title="Intra pe Wordpresu meu!!" target="_blank" rel="noreferrer noopener" >     <!--  e nevoie de ancora ptr automatizarea butoaelor  -->
               <h2 class="ListaTitlu"> ✔️ Wordpress Madalin</h2>
-              <p class="ListaLink">https://wordpress.com/home/glitiamadalin.wordpress.com </p>
+              <p class="ListaText" itemprop="url">https://wordpress.com/home/glitiamadalin.wordpress.com </p>
             </a>
           </li>
           <li class="ListaItem">
-            <a href="https://www.tiktok.com/@glitiamadalin?" class="ListaTitlu" title="Intra pe TIKtoku  meu" rel="noreferrer noopener">     <!-- e nevoie de ancora ptr automatizarea butoaelor.. -->
+            <a href="https://www.tiktok.com/@glitiamadalin?" class="ListaTitlu" title="Intra pe TIKtoku  meu" target="_blank" rel="noreferrer noopener">     <!-- e nevoie de ancora ptr automatizarea butoaelor.. -->
               <h2 class="ListaTitlu"> ✨ TIktok Madalin</h2>
-              <p class="ListaLink">https://www.tiktok.com/@glitiamadalin? </p>
+              <p class="ListaText" itemprop="url">https://www.tiktok.com/@glitiamadalin? </p>
             </a>
           </li>
-          <li class="ListaItem">
+          <li class="ListItem">
             <a href="https://www.instagram.com/" class="ListaTitlu" title="TITLU" rel="noreferrer noopener" >     <!-- e nevoie de ancora ptr automatizarea butoaelor.. -->
               <h2 class="ListaTitlu"> 🚇 Instagram Madalin</h2>
-              <p class="ListaLink"> https://www.instagram.com/</p>
+              <p class="ListaText" itemprop="url"> https://www.instagram.com/</p>
             </a>
           </li>
 
